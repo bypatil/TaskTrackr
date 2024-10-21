@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg1"
     tools:context=".MainActivity">
 
 
@@ -15,7 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.2"
         android:gravity="center"
-        android:hint="Enter Your Task"/>
+        android:hint="Enter Your Task"
+        android:textColorHint="@color/dimGray"/>
 
     <TimePicker
         android:id="@+id/time"
@@ -23,7 +25,8 @@
         android:layout_height="wrap_content"
         android:timePickerMode="spinner"
         android:layout_gravity="center"
-        android:layout_below="@+id/taskName"/>
+        android:layout_below="@+id/taskName"
+        android:numbersSelectorColor="@color/dimGray"/>
 
 
     <LinearLayout
@@ -38,7 +41,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:layout_gravity="center"
-            android:text="Add Task"/>
+            android:text="Add Task"
+            android:backgroundTint="@color/RoyalBlue"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/buttonUpdate"
@@ -46,7 +54,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:layout_gravity="center"
-            android:text="Update Task"/>
+            android:text="Update Task"
+            android:backgroundTint="@color/RoyalBlue"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/buttonDelete"
@@ -54,7 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:layout_gravity="center"
-            android:text="Delete Task"/>
+            android:text="Delete Task"
+            android:backgroundTint="@color/RoyalBlue"/>
 
 
     </LinearLayout>

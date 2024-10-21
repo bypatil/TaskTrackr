@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/bg1"
     tools:context=".SignupActivity">
 
     <EditText
@@ -14,34 +15,39 @@
         android:hint="Enter Name"
         android:inputType="textPersonName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/dimGray"/>
 
     <EditText
         android:id="@+id/signupEmail"
         android:hint="Enter Email"
         android:inputType="textEmailAddress"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/dimGray"/>
 
     <EditText
         android:id="@+id/signupPassword"
         android:hint="Enter Password"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/dimGray"/>
 
     <EditText
         android:id="@+id/signupConfirmPassword"
         android:hint="Confirm Password"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/dimGray"/>
 
     <Button
         android:id="@+id/signupButton"
         android:text="Sign Up"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/RoyalBlue"/>
 
     <!-- Redirect to Login -->
     <TextView
@@ -49,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already have an account? Login"
-        android:textColor="@android:color/holo_blue_light"
+        android:textColor="@android:color/background_dark"
         android:layout_marginTop="24dp"
         android:gravity="center"/>
 

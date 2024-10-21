@@ -2,4 +2,48 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="pink">#FFC2185B</color>
+    <color name="RoyalBlue">#246EE9</color>
+    <color name="ScarletRed">#FF2400</color>
+    <color name="strikingpink">#FFC5F3</color>
+    <color name="Mintgreen">#3EB489</color>
+
+
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#2196F3</color> <!-- Blue -->
+    <color name="colorPrimaryDark">#1976D2</color> <!-- Darker Blue -->
+    <color name="colorAccent">#FF5722</color> <!-- Deep Orange -->
+
+    <!-- Complementary and Accent Colors -->
+    <color name="colorComplementary">#FF9800</color> <!-- Orange -->
+    <color name="colorAccentBright">#FFEB3B</color> <!-- Yellow -->
+
+    <!-- Analogous Colors -->
+    <color name="colorAnalogous1">#43A047</color> <!-- Green -->
+    <color name="colorAnalogous2">#009688</color> <!-- Teal -->
+
+    <!-- Muted Pastels -->
+    <color name="colorMutedPink">#F4D1D1</color> <!-- Light Pink -->
+    <color name="colorMutedGreen">#DFF1E3</color> <!-- Mint Green -->
+
+    <!-- Neon Colors -->
+    <color name="colorNeonGreen">#39FF14</color> <!-- Neon Green -->
+    <color name="colorNeonPurple">#8A2BE2</color> <!-- Neon Purple -->
+
+    <!-- Gradient Colors -->
+    <color name="colorGradientStart">#2196F3</color> <!-- Blue Start -->
+    <color name="colorGradientEnd">#9C27B0</color> <!-- Purple End -->
+
+    <!-- Additional Unique Colors -->
+    <color name="colorUniqueRed">#F44336</color> <!-- Red -->
+    <color name="colorUniqueCyan">#00BCD4</color> <!-- Cyan -->
+    <color name="colorUniquePurple">#9C27B0</color> <!-- Purple -->
+    <color name="colorUniqueAmber">#FFC107</color> <!-- Amber -->
+
+    <color name="lightGray">#D3D3D3</color>
+    <color name="gray">#808080</color>
+    <color name="darkGray">#A9A9A9</color>
+    <color name="dimGray">#696969</color>
+    <color name="slateGray">#708090</color>
+    <color name="charcoal">#36454F</color>
 </resources>
