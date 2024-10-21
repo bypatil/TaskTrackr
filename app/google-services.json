@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799070087286",
+    "project_id": "tasktrackr-b4e07",
+    "storage_bucket": "tasktrackr-b4e07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799070087286:android:c3adcd17bfc945d77bd757",
+        "android_client_info": {
+          "package_name": "com.example.tasktrackr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl0vaMk__QwEDuCOV1CenpvYqRl9llcTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
